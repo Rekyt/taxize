@@ -1,3 +1,12 @@
+---
+title: "taxize vignette - a taxonomic toolbelt for R"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{taxize vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
 <!--
 %\VignetteEngine{knitr::knitr}
 %\VignetteIndexEntry{taxize vignette}
@@ -12,9 +21,6 @@ knitr::opts_chunk$set(
   cache.path = "cache/"
 )
 ```
-
-taxize vignette - a taxonomic toolbelt for R
-======
 
 `taxize` is a taxonomic toolbelt for R. `taxize` wraps APIs for a large suite of taxonomic databases availab on the web.
 
